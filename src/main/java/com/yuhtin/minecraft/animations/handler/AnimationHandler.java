@@ -7,6 +7,7 @@ public @interface AnimationHandler {
 
     String name();
     String description();
+    AnimationVersion state();
 
     @AllArgsConstructor
     enum AnimationVersion {
