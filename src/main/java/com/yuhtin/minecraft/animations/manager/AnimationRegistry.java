@@ -3,7 +3,6 @@ package com.yuhtin.minecraft.animations.manager;
 import com.yuhtin.minecraft.animations.Animations;
 import com.yuhtin.minecraft.animations.handler.Animation;
 import com.yuhtin.minecraft.animations.handler.AnimationHandler;
-import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.Arrays;
 
