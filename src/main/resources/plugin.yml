@@ -1,0 +1,5 @@
+name: Animations
+version: ${project.version}
+main: com.yuhtin.minecraft.animations.Animations
+authors: [ Yuhtin ]
+description: A simple plugin to create animations easly
