@@ -1,14 +1,18 @@
 package com.yuhtin.minecraft.animations.handler;
 
+import com.yuhtin.minecraft.animations.Animations;
 import lombok.Data;
 import org.bukkit.entity.ArmorStand;
 import org.bukkit.entity.Player;
+import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.HashSet;
 import java.util.Set;
 
 @Data
 public abstract class Animation {
+
+    public static final JavaPlugin plugin = JavaPlugin.getPlugin(Animations.class);
 
     private String name;
     private String description;
