@@ -49,7 +49,7 @@ Add the project dependency to your dependencies list:
  
   <groupId>com.github.Yuhtin</groupId>
   <artifactId>animations</artifactId>
-  <version>master-e3f2abdf38-1</version>
+  <version>dev-2fe03f3067-1</version>
   <scope>provided</scope>
   
 </dependency>
@@ -58,7 +58,7 @@ Add the project dependency to your dependencies list:
 🎊 Gradle dependency
 ```gradle
 dependencies {
-  implementation 'com.github.Yuhtin:animations:master-e3f2abdf38-1'
+  implementation 'com.github.Yuhtin:animations:dev-2fe03f3067-1'
 }
 ```
 
@@ -114,7 +114,7 @@ public final class AnimationTest extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
 
-        AnimationRegistry.registry(this, TestA.class);
+        AnimationRegistry.registry(this.getName(), TestA.class);
     }
 
     @Override
