@@ -49,7 +49,7 @@ Add the project dependency to your dependencies list:
  
   <groupId>com.github.Yuhtin</groupId>
   <artifactId>animations</artifactId>
-  <version>dev-2fe03f3067-1</version>
+  <version>1.0-SNAPSHOT</version>
   <scope>provided</scope>
   
 </dependency>
@@ -58,7 +58,7 @@ Add the project dependency to your dependencies list:
 🎊 Gradle dependency
 ```gradle
 dependencies {
-  implementation 'com.github.Yuhtin:animations:dev-2fe03f3067-1'
+  implementation 'com.github.Yuhtin:animations:1.0-SNAPSHOT'
 }
 ```
 
