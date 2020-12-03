@@ -11,7 +11,7 @@
 
     <name>Animations</name>
 
-    <description>A simple plugin to create animations easly</description>
+    <description>A simple plugin to create animations easily</description>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
