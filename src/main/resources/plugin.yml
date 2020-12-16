@@ -3,7 +3,7 @@ authors: [ Yuhtin ]
 version: ${project.version}
 
 main: com.yuhtin.minecraft.animations.Animations
-description: A simple plugin to create animations easly
+description: A simple plugin to create animations easily
 
 commands:
   animations:
