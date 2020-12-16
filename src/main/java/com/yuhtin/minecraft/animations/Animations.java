@@ -5,12 +5,14 @@ import com.yuhtin.minecraft.animations.animations.ExampleA;
 import com.yuhtin.minecraft.animations.command.AnimationCommand;
 import com.yuhtin.minecraft.animations.manager.AnimationDAO;
 import com.yuhtin.minecraft.animations.manager.AnimationRegistry;
-import lombok.Getter;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class Animations extends JavaPlugin {
 
-    @Getter private static final Animations instance = JavaPlugin.getPlugin(Animations.class);
+    public static Animations getInstance() {
+        return JavaPlugin.getPlugin(Animations.class);
+    }
+
 
     @Override
     public void onEnable() {
